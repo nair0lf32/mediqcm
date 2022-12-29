@@ -7,22 +7,22 @@ called in main.dart
 */
 class MyThemeData {
   final ThemeData lightTheme = ThemeData(
-    scaffoldBackgroundColor: Colors.white,
+    scaffoldBackgroundColor: Colors.grey,
     colorScheme: const ColorScheme.light().copyWith(
       primary: Colors.green,
     ),
     appBarTheme: const AppBarTheme(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.grey,
     ),
   );
 
   final ThemeData darkTheme = ThemeData(
-    scaffoldBackgroundColor: Colors.black,
+    scaffoldBackgroundColor: Colors.grey[900],
     colorScheme: const ColorScheme.dark().copyWith(
       primary: Colors.green,
     ),
     appBarTheme: const AppBarTheme(
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.grey,
     ),
   );
 }

@@ -59,7 +59,7 @@ class MyApp extends StatelessWidget {
             title: 'MediQcm',
             theme: theme,
             darkTheme: darkTheme,
-            initialRoute: 'welcome',
+            initialRoute: 'firstRoute',
             routes: myRoutes,
           );
         },
