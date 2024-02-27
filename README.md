@@ -24,7 +24,7 @@ For help getting started with Flutter development, view the
   This one is not actually a command but you need to modify the `AndroidManifest.xml` file for some
   version support with various <queries> (check documentation)
 - build and run
-
+- In case everything falls apart delete android folder and run `flutter create .` to recreate it
 
 ## External Services used (non-dependencies)
 
